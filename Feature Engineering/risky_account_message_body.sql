@@ -7,9 +7,7 @@ select * from (
                   from public.rawpii_sms_kafka as sms
                   left join public.rawpii_sms_with_bodies_kafka as bodies on bodies.sid = sms.sid
                   where sms.account_sid in (
-                        'AC7cf0b316f1f99eb5802eafbb55a74e97', 
-                        ...
-                        'ACc0df26dd5626d891d203210ee400e5a7')
+                        select sid from xwalk2)
                     AND (NOT COALESCE(bitwise_and(sms.flags, bitwise_shift_left(1, 0, 32)) >= 1, FALSE))
                     AND (sms.error_code = 0)
                     and (sms.date_created) >= (TIMESTAMP '2021-05-01')
