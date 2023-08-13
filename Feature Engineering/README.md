@@ -12,3 +12,8 @@ Generate message level features: error_code rates, phone number type, message or
 3. feature_construction_account_level.sql
 
 Generate account level features: age, has parent or not, is ISV or not, is cannabis related or not, and family size information
+
+4. risky_account_message_body.sql
+   
+Query to view sample high risk messages
+
