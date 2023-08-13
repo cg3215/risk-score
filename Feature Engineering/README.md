@@ -2,8 +2,7 @@
 
 1. rightshift.sql (May 2021 data)
 
-Use public.sms_internal_blacklist to generate count of opt-outs
-Utilize public.carrier_complaints to calculate 7726 count
+Use public.sms_internal_blacklist to generate count of opt-outs and public.carrier_complaints to calculate 7726 count
 
 2. feature_construction_sms_level.sql
 
