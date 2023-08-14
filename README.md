@@ -1,4 +1,4 @@
-# Machine Learning Applications in reducing Unwanted Communications on Twilio Programmable SMS Platform
+# Machine Learning Applications in reducing Unwanted Communications
 This project aims to detect unwanted communications (e.g. spam, phishing, messages text recipients would opt out of) preemptively and prevent Programmable SMS product users from suffering financially due to spam and phishing.
 
 Project Steps:
